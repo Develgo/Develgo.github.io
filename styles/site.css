@@ -2,3 +2,10 @@
     background-color: black;
     color: wheat;
 }
+
+@media (min-width: 414px) {
+    body { 
+        max-width: 800px;
+        margin: auto;
+    }
+}
