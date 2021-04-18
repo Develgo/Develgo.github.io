@@ -4,6 +4,7 @@
 }
 
 @media (min-width: 414px) {
+    /* right now this doesn't have any purpose, but I'm leaving it here as a reminder on how to use this syntax */
     body { 
         max-width: 800px;
         margin: auto;
