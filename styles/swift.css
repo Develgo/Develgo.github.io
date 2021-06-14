@@ -12,13 +12,11 @@
     --violet-blue: #ac3d9e;
 }
 
-pre {
+.code-block {
     background-color: black;
     border-radius: 0.5rem;
     overflow: scroll;
-}
 
-code {
     font-family: monospace;
     font-size: 1.1rem;
 }
