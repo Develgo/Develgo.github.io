@@ -1,0 +1,68 @@
+:root {
+    --persian-pink: #ee82b0;
+    --fog: #d4bdfb;
+    --water-leaf: #bbf0e4;
+    --dolphin: #747478;
+    --salmon: #ef8776;
+    --sandwisp: #d7c986;
+    --sandy-brown: #f2a45f;
+    --cornflower-blue: #709af8;
+    --monte-carlo: #88c0b4;
+    --biloba-flower: #aa85e5;
+    --violet-blue: #ac3d9e;
+}
+
+pre {
+    background-color: black;
+    border-radius: 0.5rem;
+    overflow: scroll;
+}
+
+code {
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+.token-keyword {
+    color: var(--persian-pink);
+}
+
+.token-type {
+    color: var(--fog);
+}
+
+.token-class {
+    color: var(--water-leaf);
+}
+
+.token-string {
+    color: var(--salmon);
+}
+
+.token-characters {
+    color: var(--sandwisp);
+}
+
+.token-preprocessor {
+    color: var(--sandy-brown);
+}
+
+.token-urls {
+    color: var(--cornflower-blue);
+}
+
+.token-method {
+    color: var(--monte-carlo);
+}
+
+.token-globals {
+    color: var(--biloba-flower);
+}
+
+.token-headings {
+    color: var(--violet-blue);
+}
+
+.line {
+    color: var(--dolphin);
+}
