@@ -64,3 +64,42 @@
 .line {
     color: var(--dolphin);
 }
+
+/* Swift by Sundell Styles */
+code { font-family: "Code", monospace; }
+
+pre code
+{
+	display: block;
+	background-color: #1a1a1a;
+	padding: 15px 20px;
+	border-radius: 12px;
+	color: #a9bcbc;
+	line-height: 1.4em;
+	font-size: 0.95em;
+	overflow-x: auto;
+	white-space: pre;
+	-webkit-overflow-scrolling: touch;
+}
+
+pre code .s-keyword { color: #e83b8e; }
+pre code .s-type { color: #8281ca; }
+pre code .s-call { color: #348fe5; }
+pre code .s-property { color: #21ab9d; }
+pre code .s-number { color: #db6f57; }
+pre code .s-string { color: #fa641e; }
+pre code .s-comment { color: #6b8a94; }
+pre code .s-dotAccess { color: #92b300; }
+pre code .s-preprocessing { color: #b68a00; }
+
+pre code .highlight
+{
+	display: inline-block;
+	padding: 0 4px 2px 4px;
+	border: 1px solid #546AFF;
+	border-radius: 5px;
+	background-color: #1A1721;
+	margin-left: -5px;
+}
+
+pre code .highlight.shifted { margin-left: 0; }
