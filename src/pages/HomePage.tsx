@@ -1,6 +1,17 @@
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { dark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+
 const HomePage = () => {
+    const multiline: string = `public class Person { 
+    public string FirstName { get; set; }
+}`;
     return (
-        <div>Home</div>
+        <div className='text-left'>Home
+            <br />
+            <SyntaxHighlighter language='csharp' style={dark} showLineNumbers={true}>
+                {multiline}
+            </SyntaxHighlighter>
+        </div>
     );
 };
 
