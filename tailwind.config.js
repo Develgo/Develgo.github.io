@@ -9,6 +9,9 @@ module.exports = {
         'develgo-blue': '#004f79',
         'develgo-light-blue': '#D8FCFA',
       },
+      backgroundImage: {
+        'hero-image': "url('/public/yellow_comic.jpg')",
+      }
     },
   },
   plugins: [],

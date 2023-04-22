@@ -1,5 +1,18 @@
+body {
+  /* background-color: theme('colors.develgo-blue');
+  color: white; */
+}
+
 .App {
-  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  background-image: 'keyboard_background.jpg';
+}
+
+.profile-image {
+  border-radius: 3rem 0 3rem 0;
 }
 
 .nav-logo {
