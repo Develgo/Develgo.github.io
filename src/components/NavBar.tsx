@@ -32,13 +32,13 @@ const NavBar = () => {
                     <Link className="cursor-pointer" to="/">
                         <img src={homeLogo} alt="Develgo Logo" className="nav-logo bg-develgo-light-blue" />
                     </Link>
-                    <div className="text-lg font-bold">Nitesh Maharaj</div>
+                    <div className="grow text-lg font-bold">Nitesh Maharaj</div>
                 </div>
                 <div className="flex mx-4 space-x-4 text-lg text-white font-bold items-center">
                     {
                         menuItems.map((menuItem, index) => {
                             return (
-                                <Link key={index} className="invisible md:visible cursor-pointer hover:underline" to={menuItem.destination}>{menuItem.label}</Link>
+                                <Link key={index} className="hidden md:block cursor-pointer hover:underline" to={menuItem.destination}>{menuItem.label}</Link>
                             );
                         })
                     }

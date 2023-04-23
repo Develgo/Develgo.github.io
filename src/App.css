@@ -15,6 +15,14 @@ body {
   border-radius: 3rem 0 3rem 0;
 }
 
+.develgo-box {
+  border-radius: 3rem 0 3rem 0;
+}
+
+.apple-icon {
+  border-radius: 2.5rem;
+}
+
 .nav-logo {
   height: 3rem;
   width: 3rem;
