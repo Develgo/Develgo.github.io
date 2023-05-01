@@ -11,10 +11,10 @@ const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     const menuItems: MenuItem[] = [
-        {
-            destination: "/architecture",
-            label: "Architecture"
-        },
+        // {
+        //     destination: "/architecture",
+        //     label: "Architecture"
+        // },
         {
             destination: "/about",
             label: "About Me"

@@ -26,12 +26,12 @@ const HomePage = () => {
                 <LinkBox className="bg-gradient-to-r from-sky-500 to-indigo-500" destination="/git-cheat-sheet" tag="git">
                     <div>Getting a handle on <span className="font-mono">git</span> in the terminal</div>
                 </LinkBox>
-                <LinkBox className="bg-gradient-to-r from-violet-500 to-fuchsia-500" destination="/git-cheat-sheet" tag="leadership">
+                {/* <LinkBox className="bg-gradient-to-r from-violet-500 to-fuchsia-500" destination="/git-cheat-sheet" tag="leadership">
                     <div>Leading people and coaching for excellence</div>
                 </LinkBox>
                 <LinkBox className="bg-gradient-to-r from-green-500 to-teal-500" destination="/git-cheat-sheet" tag="reactjs">
                     <div>Creating a ReactJS app with Typescript and TailwindCSS</div>
-                </LinkBox>
+                </LinkBox> */}
             </div>
             <br />
             <br />
