@@ -6,6 +6,8 @@ import AboutPage from './pages/AboutPage';
 import Footer from './components/Footer';
 import ArchitecturePage from './pages/ArchitecturePage';
 import GitPage from './pages/GitPage';
+import MongoDbPage from './pages/MongoDbPage';
+import ScaffoldingDotnetPage from './pages/ScaffoldingDotnetPage';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/architecture" element={<ArchitecturePage />}></Route>
         <Route path="/git-cheat-sheet" element={<GitPage />}></Route>
+        <Route path='/mongodb-todo-list' element={<MongoDbPage />}></Route>
+        <Route path='/scaffolding-dotnet' element={<ScaffoldingDotnetPage />}></Route>
       </Routes>
       <Footer />
     </div>

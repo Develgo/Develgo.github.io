@@ -26,12 +26,14 @@ const HomePage = () => {
                 <LinkBox className="bg-gradient-to-r from-sky-500 to-indigo-500" destination="/git-cheat-sheet" tag="git">
                     <div>Getting a handle on <span className="font-mono">git</span> in the terminal</div>
                 </LinkBox>
-                {/* <LinkBox className="bg-gradient-to-r from-violet-500 to-fuchsia-500" destination="/git-cheat-sheet" tag="leadership">
-                    <div>Leading people and coaching for excellence</div>
-                </LinkBox>
-                <LinkBox className="bg-gradient-to-r from-green-500 to-teal-500" destination="/git-cheat-sheet" tag="reactjs">
-                    <div>Creating a ReactJS app with Typescript and TailwindCSS</div>
+
+                {/* <LinkBox className="bg-gradient-to-r from-violet-500 to-fuchsia-500" destination="/mongodb-todo-list" tag=".net">
+                    <div>Creating a Todo List with .NET and MongoDB</div>
                 </LinkBox> */}
+                
+                <LinkBox className="bg-gradient-to-r from-green-500 to-teal-500" destination="/scaffolding-dotnet" tag=".net">
+                    <div>Scaffolding a solution with the dotnet CLI</div>
+                </LinkBox>
             </div>
             <br />
             <br />
