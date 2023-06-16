@@ -8,6 +8,7 @@ import ArchitecturePage from './pages/ArchitecturePage';
 import GitPage from './pages/GitPage';
 import MongoDbPage from './pages/MongoDbPage';
 import ScaffoldingDotnetPage from './pages/ScaffoldingDotnetPage';
+import SwiftMockDataProviderPage from './pages/SwiftMockDataProviderPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/git-cheat-sheet" element={<GitPage />}></Route>
         <Route path='/mongodb-todo-list' element={<MongoDbPage />}></Route>
         <Route path='/scaffolding-dotnet' element={<ScaffoldingDotnetPage />}></Route>
+        <Route path='/swift-mock-data-provider' element={<SwiftMockDataProviderPage />}></Route>
       </Routes>
       <Footer />
     </div>

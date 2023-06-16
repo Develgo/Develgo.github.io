@@ -27,9 +27,9 @@ const HomePage = () => {
                     <div>Getting a handle on <span className="font-mono">git</span> in the terminal</div>
                 </LinkBox>
 
-                {/* <LinkBox className="bg-gradient-to-r from-violet-500 to-fuchsia-500" destination="/mongodb-todo-list" tag=".net">
-                    <div>Creating a Todo List with .NET and MongoDB</div>
-                </LinkBox> */}
+                <LinkBox className="bg-gradient-to-r from-violet-500 to-fuchsia-500" destination="/swift-mock-data-provider" tag="swift">
+                    <div>Swift Mock Data Provider</div>
+                </LinkBox>
                 
                 <LinkBox className="bg-gradient-to-r from-green-500 to-teal-500" destination="/scaffolding-dotnet" tag=".net">
                     <div>Scaffolding a solution with the dotnet CLI</div>
